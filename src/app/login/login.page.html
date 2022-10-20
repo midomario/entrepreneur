@@ -1,0 +1,37 @@
+<div class="all">
+  <div class="top">
+    <ion-img src="/assets/connect.svg" class="connect_img"></ion-img>
+  </div>  
+  <div class="container" >
+    <strong>Se connecter</strong>
+    <p>Conenctez vous en utilisant vos identifiants. </p>
+  
+    <div class="login_form">
+      <ion-list class="login_list">
+        <ion-item>
+          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-input placeholder="Enter text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-input placeholder="Enter text"></ion-input>
+        </ion-item>
+
+          <ion-button color="medium" class="login_action" [routerLink]="['/login']">
+              Se connecter
+          </ion-button>
+
+      </ion-list>
+    </div>
+    <div class="welcome-buttons">
+      <ion-button color="light" class="action" [routerLink]="['/signup']">
+        <ion-icon slot="start" name="star"></ion-icon>
+         S'inscrire
+      </ion-button>
+      <br>
+
+    <ion-img src="/assets/logo.png"  class="bottom_logo"></ion-img>
+    </div>
+  </div>
+</div>

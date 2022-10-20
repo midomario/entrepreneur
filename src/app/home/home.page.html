@@ -1,4 +1,4 @@
-<div [fullscreen]="true" class="all">
+<div  class="all">
   <div class="top">
 
   </div>  
@@ -7,11 +7,11 @@
     <p>Suivi vos affaires dans un seul emplaçement. </p>
   
     <div class="welcome-buttons">
-        <ion-button color="medium" class="action">
-          <ion-icon slot="start" name="star"></ion-icon>
+        <ion-button color="medium" class="action" [routerLink]="['/login']">
+          <ion-icon slot="start" name="star" ></ion-icon>
             Se connecter
         </ion-button>
-        <ion-button color="light" class="action">
+        <ion-button color="light" class="action" [routerLink]="['/signup']">
           <ion-icon slot="start" name="star"></ion-icon>
            S'inscrire
         </ion-button>
