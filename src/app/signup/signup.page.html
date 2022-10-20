@@ -1,9 +1,53 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>signup</ion-title>
-  </ion-toolbar>
-</ion-header>
+<div class="all">
+  <div class="top">
+    <ion-img src="/assets/signup.svg" class="connect_img"></ion-img>
+  </div>  
+  <div class="container" >
+    <strong>Créer un compte</strong>
+    <p>Rejoignez nous et créer votre compte gratuitement. </p>
+  
+    <div class="login_form">
+      <ion-list class="login_list">
+        <ion-item>
+          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-input placeholder="Enter text"></ion-input>
+        </ion-item>
 
-<ion-content>
+        <ion-item>
+          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-input placeholder="Enter text"></ion-input>
+        </ion-item>
 
-</ion-content>
+        <ion-item>
+          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-input placeholder="Enter text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-input placeholder="Enter text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-input placeholder="Enter text"></ion-input>
+        </ion-item>
+
+          <ion-button color="medium" class="login_action" [routerLink]="['/home']">
+              Créer un compte
+          </ion-button>
+          
+          <br>
+            <ion-button color="light" class="action" [routerLink]="['/login']">
+              <ion-icon slot="start" name="star"></ion-icon>
+               Se connecter
+            </ion-button>
+      
+          <ion-img src="/assets/logo.png"  class="bottom_logo"></ion-img>
+
+        </ion-list>
+
+    </div>
+   
+  </div>
+</div>
