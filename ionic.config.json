@@ -1,0 +1,7 @@
+{
+  "name": "entrepreneur",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
