@@ -1,0 +1,82 @@
+.all{
+    width: 100%;
+      height: 100%;
+      text-align: center;
+  }
+  
+  .top{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .my_toolbar{
+    --background: none;
+    background: none;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  
+  .my_menu_icon{
+    height: 35px;
+    width: 40px;
+  }
+
+  .menu_icon{
+    height: 30px;
+    width: 40px;
+  }
+  .menu_icon_avatar{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 4px;
+    padding: 2px;
+  }
+  
+ ion-segment{
+    background: #ffb6b6;
+    --background: #ffb6b6;
+    padding: 7px;
+    margin: 7px auto;
+ }
+ 
+ ion-segment-button{
+    padding: 6px;
+ }
+
+  ion-thumbnail{
+    height: 150px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+  .article{
+    height: 100%;
+    background: #ffb6b6;
+    padding: 10px;
+    border-radius: 40px 40px 0px 0px;
+    margin-top: 10px;
+  }
+
+  .article-title{
+    --background: none;
+    background: none;
+  }
+
+  .a-title{
+    --background: none;
+    background: none;
+  }
+
+  .article-content{
+    padding: 5px;
+  }
+
+ 
