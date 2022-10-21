@@ -1,0 +1,88 @@
+.all{
+    width: 100%;
+      height: 100%;
+      text-align: center;
+  }
+  
+  .top{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .my_toolbar{
+    --background: none;
+    background: none;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  
+  .my_menu_icon{
+    height: 35px;
+    width: 40px;
+  }
+
+  .menu_icon{
+    height: 30px;
+    width: 40px;
+  }
+  .menu_icon_avatar{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 4px;
+    padding: 2px;
+  }
+  
+ ion-segment{
+    background: #ffb6b6;
+    --background: #ffb6b6;
+    padding: 7px;
+    margin: 7px auto;
+ }
+ 
+ ion-segment-button{
+    padding: 6px;
+ }
+
+ .articles{
+    // background: #ffb6b6;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    // padding-top: 20px;
+    // border-radius: 40px;
+    color: #305F72;
+  }
+
+  .article{
+    width: 100%;
+    height: auto;
+  }
+
+  .figure{
+    height: 120px;
+    width: 90%;
+    background: url(https://picsum.photos/200/300);
+    background-size: 100% 100%;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .actions{
+    width: 100%;
+    --background: none;
+    background: none;
+    padding: 8px ;
+    // margin-top: 10px ;
+    // margin-right: 10px ;
+    text-align: center;
+    font-size: 22px;
+  }
+  .details{
+    width: 90%;
+    /* margin: auto; */
+    padding: 4px;
+    margin: 0px auto;
+  }

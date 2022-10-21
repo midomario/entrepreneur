@@ -6,13 +6,21 @@
     <strong>Entrepreneur App</strong>
     <p>Suivi vos affaires dans un seul emplaçement. </p>
   
+    <div class="slider">
+      <swiper class="banner-slides" [initialSlide]="1" [autoplay]="true"
+      [pagination]="true" [zoom]="true"
+       [slidesPerView]="1.25" [spaceBetween]="20" [centeredSlides]="true"
+        #swiper>
+        <ng-template swiperSlide><img src="/assets/images/service1.jpg" alt="" class="my_slider_img"></ng-template>
+        <ng-template swiperSlide><img src="/assets/images/service2.jpg" alt="" class="my_slider_img"></ng-template>
+        <ng-template swiperSlide><img src="/assets/images/service1.jpg" alt="" class="my_slider_img"></ng-template>
+        </swiper>
+    </div>
     <div class="welcome-buttons">
         <ion-button color="medium" class="action" [routerLink]="['/login']">
-          <ion-icon slot="start" name="star" ></ion-icon>
             Se connecter
         </ion-button>
         <ion-button color="light" class="action" [routerLink]="['/signup']">
-          <ion-icon slot="start" name="star"></ion-icon>
            S'inscrire
         </ion-button>
     </div>
