@@ -86,26 +86,57 @@
   }
  
   .stats{
-    --background: #ffffff;
+    --background: #ffffff87;
     color: #f18c8e;
     margin: 10px 3px;
     border-radius: 10px;
+    font-weight: bold;
   }
 
   .author{
-    color: #ffffff;
+    color: #ffffff87;
     margin: 10px 3px;
     border-radius: 10px;
     padding: 0px;
-    --background: none;
+    --background: #f4f5f847;
     img{
       border-radius: 10px;
+    }
+
+    ion-label{
+      color: #222428;
+      font-weight: bold;
     }
   }
 
   .comments{
-    --background: #eb445a;
+    // --background: #eb445a;
+    background: none;
     color: white;
     margin: 10px 3px;
     border-radius: 10px;
   }
+
+  .comment{
+    margin: 10px auto;
+    border-radius: 10px;
+    --background:#ffffff87;
+     h4{
+      margin-top: 0px;
+      margin-bottom: 0px;
+     }
+     
+  }
+
+  .no-bg{
+    background: none; --background:none;
+  }
+  .new-line{
+    display: block;
+    width: 60%;
+    margin-top: 5px;
+  }
+
+  .comment-content{
+    color: #737373;
+   }
