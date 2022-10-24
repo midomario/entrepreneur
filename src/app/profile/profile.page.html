@@ -1,9 +1,73 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>profile</ion-title>
-  </ion-toolbar>
-</ion-header>
+<div  class="all">
+  <div class="top">
+    <div class="top_bg">
+    <ion-toolbar class="my_toolbar">
+      <ion-icon slot="start" name="reorder-three-outline" class="my_menu_icon"></ion-icon>
+      <ion-title>Profile</ion-title>
+      <div slot="end">
+      <ion-icon slot="start" name="mail-outline" class="menu_icon"></ion-icon>
+      <ion-icon slot="start" name="notifications-outline" class="menu_icon"></ion-icon>
+        <img alt="avatar" src="https://ionicframework.com/docs/img/demos/avatar.svg"class="menu_icon_avatar"  />
+      </div>
+    </ion-toolbar>
+    <!--  -->
+    <div class="profile-card">
+      <img src="https://ionicframework.com/docs/img/demos/avatar.svg" class="avatar_top"  />
+      <h5>Flan ben FLAN</h5>
+    </div>
 
-<ion-content>
+  </div>  
+</div>
 
-</ion-content>
+<div class="choix">
+  <ion-segment color="primary" [(ngModel)]="segment" (ionChange)="segmentChanged($event)" scrollable>
+    <ion-segment-button value="profile" checked>
+      <ion-label>My profile</ion-label>
+      <ion-icon name="cash"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="settings">
+      <ion-label>All settings</ion-label>
+      <ion-icon name="log-out"></ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+</div>
+  <div class="mycontent" >
+    <!--  -->
+    <div [ngSwitch]="segment">
+      <div *ngSwitchCase="'profile'">
+
+        <ion-item fill="solid" class="form-item">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email" ngModel email></ion-input>
+          <ion-note slot="helper">Enter a valid email</ion-note>
+          <ion-note slot="error">Invalid email</ion-note>
+        </ion-item>
+
+        <ion-item fill="solid"  class="form-item">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email" ngModel email></ion-input>
+          <ion-note slot="helper">Enter a valid email</ion-note>
+          <ion-note slot="error">Invalid email</ion-note>
+        </ion-item>
+
+        <ion-item fill="solid"  class="form-item">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email" ngModel email></ion-input>
+          <ion-note slot="helper">Enter a valid email</ion-note>
+          <ion-note slot="error">Invalid email</ion-note>
+        </ion-item>
+
+
+        <ion-button expand="block" class="save-btn">Save</ion-button>
+
+      </div>
+  
+      <div *ngSwitchCase="'settings'">
+
+      
+
+      </div>
+    </div>
+    <!--  -->
+  </div>
+</div>

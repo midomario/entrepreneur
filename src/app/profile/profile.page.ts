@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfilePage implements OnInit {
 
+  segment = "profile";  
+
   constructor() { }
 
+  segmentChanged(ev: any) {
+    console.log('Segment changed', ev);
+  }
   ngOnInit() {
   }
 

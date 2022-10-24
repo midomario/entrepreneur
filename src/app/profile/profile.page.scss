@@ -1,0 +1,95 @@
+.all{
+    width: 100%;
+      height: 100%;
+      text-align: center;
+  }
+  
+  .top{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 0 0 40px 40px;
+    color: #223;
+    background: #ffb6b6;
+
+  }
+
+  .top_bg{
+    background: url(/assets/images/profilebg.svg) no-repeat bottom right;
+    background-size: 15% 15%;
+  }
+
+  .avatar_top{
+    height: 100px;
+    border-radius: 25px;
+    padding: 2px;
+    background: #ffb6b61f;
+    box-shadow: 1px 3px 6px 1px rgb(0 0 0 / 50%)
+  }
+
+  .my_toolbar{
+    --background: none;
+    background: none;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  
+  .my_menu_icon{
+    height: 35px;
+    width: 40px;
+  }
+
+  .menu_icon{
+    height: 30px;
+    width: 40px;
+  }
+  .menu_icon_avatar{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 4px;
+    padding: 2px;
+  }
+
+ .mycontent{
+    background: #ffb6b6;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /* color: #305F72; */
+    margin-top: 10px;
+    border-radius: 40px 40px 0 0;
+  }
+
+  .profile-card{
+    text-align: center;
+  }
+
+  ion-segment{
+    // background: #ffb6b6; 
+    /* --background: #ffb6b6; */
+    padding: 7px;
+    margin: 10px auto;
+ }
+ 
+ ion-segment-button{
+    padding: 6px;
+ }
+
+ .form-item{
+    margin: 10px;
+    border-radius: 10px;
+    color: #52424f;
+    ion-note{
+        color: #223;
+    }
+ }
+
+ .save-btn{
+    margin: 10px;
+    --background: #A06776;
+    color: white;
+ }
+
+
+
