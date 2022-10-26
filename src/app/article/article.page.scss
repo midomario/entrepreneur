@@ -2,6 +2,7 @@
     width: 100%;
       height: 100%;
       text-align: center;
+      background: #ffb6b6;
   }
   
   .top{
@@ -59,7 +60,7 @@
 
   .article{
     height: 100%;
-    background: #ffb6b6;
+    background: #fff;
     padding: 10px;
     border-radius: 40px 40px 0px 0px;
     // margin-top: 10px;
@@ -86,19 +87,23 @@
   }
  
   .stats{
-    --background: #ffffff87;
-    color: #f18c8e;
+    --background: #F4DDE2;
+    color: #574141;
     margin: 10px 3px;
     border-radius: 10px;
     font-weight: bold;
   }
 
+  .badge-info{
+    margin: auto 4px;
+    text-align: center;
+  }
   .author{
     color: #ffffff87;
     margin: 10px 3px;
     border-radius: 10px;
     padding: 0px;
-    --background: #f4f5f847;
+    --background: #F4DDE2;
     img{
       border-radius: 10px;
     }
@@ -120,7 +125,7 @@
   .comment{
     margin: 10px auto;
     border-radius: 10px;
-    --background:#ffffff87;
+    --background:#F4DDE2;
      h4{
       margin-top: 0px;
       margin-bottom: 0px;

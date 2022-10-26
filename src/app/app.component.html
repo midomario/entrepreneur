@@ -1,3 +1,6 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<ion-split-pane contentId="main">
+  <ion-menu side="start" contentId="main">
+      <app-sidemenu></app-sidemenu>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-split-pane>
