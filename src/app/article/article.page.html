@@ -1,25 +1,23 @@
-<div  class="all">
+<ion-content  class="all">
+  <ion-toolbar class="my_toolbar">
+    <ion-menu-toggle slot="start">
+      <ion-icon  name="reorder-three-outline" class="my_menu_icon"></ion-icon>
+    </ion-menu-toggle>
+
+    <!-- <ion-title>Articles</ion-title> -->
+    <div slot="end">
+    <ion-icon slot="start" name="arrow-back-outline" class="menu_icon"></ion-icon>
+    <ion-icon slot="start" name="heart-outline" color="danger" class="my_menu_icon"></ion-icon>
+
+    <!-- <ion-icon slot="start" name="mail-outline" class="menu_icon"></ion-icon> -->
+    <!-- <ion-icon slot="start" name="notifications-outline" class="menu_icon"></ion-icon> -->
+    <!-- <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg"class="menu_icon_avatar"  /> -->
+    </div>
+  </ion-toolbar>
   <div class="top">
-    <ion-toolbar class="my_toolbar">
-      <ion-menu-toggle slot="start">
-        <ion-icon  name="reorder-three-outline" class="my_menu_icon"></ion-icon>
-      </ion-menu-toggle>
-
-      <!-- <ion-title>Articles</ion-title> -->
-      <div slot="end">
-      <ion-icon slot="start" name="arrow-back-outline" class="menu_icon"></ion-icon>
-      <ion-icon slot="start" name="heart-outline" color="danger" class="my_menu_icon"></ion-icon>
-
-      <!-- <ion-icon slot="start" name="mail-outline" class="menu_icon"></ion-icon> -->
-      <!-- <ion-icon slot="start" name="notifications-outline" class="menu_icon"></ion-icon> -->
-      <!-- <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg"class="menu_icon_avatar"  /> -->
-      </div>
-    </ion-toolbar>
-    <!--  -->
     <ion-thumbnail class="my-thumbnail">
       <img alt="Silhouette of mountains" src="https://picsum.photos/200/300" />
     </ion-thumbnail>
-    
   </div>  
   <div class="article" >
     <ion-toolbar class="article-title">
@@ -73,12 +71,12 @@
         <div >
         <ion-row class="no-bg">
           <ion-col class="no-bg">
-            <h4>
+            <h6>
             Item Thumbnail
             <ion-badge class="new-line">
               <ion-icon name="time-outline" slot="start"></ion-icon> 12 minutes ago
            </ion-badge>
-          </h4>
+          </h6>
         </ion-col>
         </ion-row>
         <ion-row class="no-bg">
@@ -98,12 +96,12 @@
         <div >
         <ion-row class="no-bg">
           <ion-col class="no-bg">
-            <h4>
+            <h6>
             Item Thumbnail
             <ion-badge class="new-line">
               <ion-icon name="time-outline" slot="start"></ion-icon> 12 minutes ago
            </ion-badge>
-          </h4>
+          </h6>
         </ion-col>
         </ion-row>
         <ion-row class="no-bg">
@@ -123,12 +121,12 @@
         <div >
         <ion-row class="no-bg">
           <ion-col class="no-bg">
-            <h4>
+            <h6>
             Item Thumbnail
             <ion-badge class="new-line">
               <ion-icon name="time-outline" slot="start"></ion-icon> 12 minutes ago
            </ion-badge>
-          </h4>
+          </h6>
         </ion-col>
         </ion-row>
         <ion-row class="no-bg">
@@ -143,4 +141,4 @@
     </ion-list>
 
   </div>
-</div>
+</ion-content>

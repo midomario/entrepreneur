@@ -1,37 +1,70 @@
-<div class="all">
+<ion-content class="all">
   <div class="top">
     <ion-img src="/assets/signup.svg" class="connect_img"></ion-img>
   </div>  
   <div class="container" >
+    <ion-img src="/assets/images/logo.png"  class="bottom_logo"></ion-img>
+
     <strong>Créer un compte</strong>
     <p>Rejoignez nous et créer votre compte gratuitement. </p>
   
     <div class="login_form">
       <ion-list class="login_list">
         <ion-item>
-          <ion-label position="stacked">Stacked label</ion-label>
+          <ion-label position="stacked">Nom et Prénom</ion-label>
+          <ion-input type="text"placeholder="Enter text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Date de naissance</ion-label>
+          <ion-input type="date" placeholder="Enter text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Ville</ion-label>
           <ion-input placeholder="Enter text"></ion-input>
         </ion-item>
 
         <ion-item>
-          <ion-label position="stacked">Stacked label</ion-label>
-          <ion-input placeholder="Enter text"></ion-input>
+          <ion-label position="stacked">Mot de passe</ion-label>
+          <ion-input type="password"  placeholder="Enter text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">Mot de passe Confirmation</ion-label>
+          <ion-input type="password" placeholder="Enter text"></ion-input>
         </ion-item>
 
-        <ion-item>
-          <ion-label position="stacked">Stacked label</ion-label>
-          <ion-input placeholder="Enter text"></ion-input>
-        </ion-item>
+          <ion-radio-group>
+            <ion-list-header>
+              <ion-label>Genre</ion-label>
+            </ion-list-header>
+            <ion-item class="type_item">
+              <ion-label>Male</ion-label>
+              <ion-radio slot="start" value="griff"></ion-radio>
+            </ion-item>
+        
+            <ion-item  class="type_item">
+              <ion-label>Female</ion-label>
+              <ion-radio slot="start" value="buford"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
 
-        <ion-item>
-          <ion-label position="stacked">Stacked label</ion-label>
-          <ion-input placeholder="Enter text"></ion-input>
-        </ion-item>
+          <ion-radio-group>
+            <ion-list-header>
+              <ion-label>Type de compte</ion-label>
+            </ion-list-header>
+            <ion-item class="compte_item">
+              <ion-label>Entreprise</ion-label>
+              <ion-radio slot="start" value="griff"></ion-radio>
+            </ion-item>
+        
+            <ion-item  class="compte_item">
+              <ion-label>Porteur de project</ion-label>
+              <ion-radio slot="start" value="buford"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
 
-        <ion-item>
-          <ion-label position="stacked">Stacked label</ion-label>
-          <ion-input placeholder="Enter text"></ion-input>
-        </ion-item>
+        
 
           <ion-button color="medium" class="login_action" [routerLink]="['/home']">
               Créer un compte
@@ -42,11 +75,11 @@
                Se connecter
             </ion-button>
       
-          <ion-img src="/assets/logo.png"  class="bottom_logo"></ion-img>
+          
 
         </ion-list>
 
     </div>
    
   </div>
-</div>
+</ion-content>

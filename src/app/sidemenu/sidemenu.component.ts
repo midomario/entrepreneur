@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-sidemenu',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidemenuComponent implements OnInit {
 
-  version: string = "0.7.2";
+
+
 
     appPages = [
         {
@@ -32,18 +34,15 @@ export class SidemenuComponent implements OnInit {
         }
     ];
 
-    constructor() { }
+constructor(private menu: MenuController) {
+
+}
+
 
     ngOnInit() { }
 
-    leaveAReview() { }
-
-    openFacebookProfile() { }
-
-    openInstagramProfile() { }
-
-    openTwitterProfile() { }
-
-    openWebsite() { }
+    hideMe() {
+        this.menu.close();
+     }
 
 }

@@ -11,6 +11,7 @@
     border-radius: 0 0 40px 40px;
     color: #223;
     background: #ffb6b6;
+    padding-top: 60px;
 
   }
 
@@ -32,6 +33,8 @@
     background: none;
     padding: 10px 5px;
     text-align: center;
+    position: fixed;
+    margin-bottom: 10px;
   }
   
   .my_menu_icon{
@@ -68,12 +71,13 @@
   ion-segment{
     // background: #ffb6b6; 
     /* --background: #ffb6b6; */
-    padding: 7px;
+    padding: 4px;
     margin: 10px auto;
+    overflow: hidden;
  }
  
  ion-segment-button{
-    padding: 6px;
+    padding: 1px;
  }
 
  .form-item{

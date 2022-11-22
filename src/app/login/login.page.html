@@ -1,4 +1,4 @@
-<div class="all">
+<ion-content class="all  " [fullscreen]="true">
   <div class="top">
     <ion-img src="/assets/connect.svg" class="connect_img"></ion-img>
   </div>  
@@ -9,13 +9,13 @@
     <div class="login_form">
       <ion-list class="login_list">
         <ion-item>
-          <ion-label position="stacked">Stacked label</ion-label>
-          <ion-input placeholder="Enter text"></ion-input>
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input placeholder="Enter@gmail.com"></ion-input>
         </ion-item>
 
         <ion-item>
-          <ion-label position="stacked">Stacked label</ion-label>
-          <ion-input placeholder="Enter text"></ion-input>
+          <ion-label position="stacked">Mot de passe</ion-label>
+          <ion-input type="password" placeholder="Enter password"></ion-input>
         </ion-item>
 
           <ion-button color="medium" class="login_action" [routerLink]="['/home']">
@@ -30,7 +30,7 @@
       </ion-button>
       <br>
 
-    <ion-img src="/assets/logo.png"  class="bottom_logo"></ion-img>
+    <ion-img src="/assets/images/logo.png"  class="bottom_logo"></ion-img>
     </div>
   </div>
-</div>
+</ion-content>

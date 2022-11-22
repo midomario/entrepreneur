@@ -9,6 +9,7 @@
     width: 100%;
     height: auto;
     padding: 10px;
+    padding-top: 40px;
   }
 
   .my_toolbar{
@@ -16,6 +17,8 @@
     background: none;
     padding: 10px 5px;
     text-align: center;
+    position: fixed;
+    margin-bottom: 10px;
   }
   
   .my_menu_icon{
@@ -59,7 +62,7 @@
   }
 
   .article{
-    height: 100%;
+    height: auto;
     background: #fff;
     padding: 10px;
     border-radius: 40px 40px 0px 0px;
